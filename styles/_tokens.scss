@@ -1,0 +1,83 @@
+// Colors
+$primary: #6526d1;
+$heading: #07030f;
+$text: #7a7a7a;
+$off_white: #fbfafe;
+$white: #ffffff;
+
+// Fluid fonts
+$paragraph: clamp(0.94rem, 0.86vi + 0.72rem, 1.75rem);
+$header_6: clamp(1.17rem, 1.37vi + 0.83rem, 2.47rem);
+$header_5: clamp(1.46rem, 2.14vi + 0.93rem, 3.5rem);
+$header_4: clamp(1.83rem, 3.28vi + 1.01rem, 4.95rem);
+$header_3: clamp(2.29rem, 4.95vi + 1.05rem, 7rem);
+$header_2: clamp(2.86rem, 7.4vi + 1.01rem, 9.89rem);
+$header_1: clamp(3.58rem, 10.96vi + 0.84rem, 13.99rem);
+
+// Fluid space
+$small: clamp(1.13rem, calc(1.04rem + 0.41vw), 1.5rem);
+$medium: clamp(1.69rem, calc(1.57rem + 0.61vw), 2.25rem);
+$large: clamp(2.25rem, calc(2.09rem + 0.81vw), 3rem);
+
+// Typography utilities
+.header_1 {
+    font-size: $header_1;
+}
+
+.header_2 {
+    font-size: $header_2;
+}
+
+.header_3 {
+    font-size: $header_3;
+}
+
+.header_4 {
+    font-size: $header_4;
+}
+
+.header_5 {
+    font-size: $header_5;
+}
+
+.header_6 {
+    font-size: $header_6;
+}
+
+.paragraph {
+    font-size: $paragraph;
+}
+
+// Color utilities
+.primary {
+    color: $primary;
+}
+
+.heading {
+    color: $heading;
+}
+
+.text {
+    color: $text;
+}
+
+.off_white {
+    color: $off_white;
+}
+
+.white {
+    color: $white;
+}
+
+// Spacing utilities
+.large {
+    padding: $large;
+}
+
+.medium {
+    padding: $medium;
+}
+
+.small {
+    padding: $small;
+}
